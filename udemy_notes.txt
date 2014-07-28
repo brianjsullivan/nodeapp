@@ -1,0 +1,61 @@
+Node.js
+--
+NodeJS performance - async, non-blocking, event-based, scalable
+NPM = Node Package Manager or Node Packaged Module(s)
+REPL : node command line interface
+
+
+
+MongoDB
+---
+NoSQL, schema-less database
+
+
+
+Express
+---
+Route HTTP requests to certain models & controllers
+
+
+
+
+
+
+
+
+MVC Frameworks:
+Backbone.js
+---
+RESTful JSON interface
+Single-page web apps
+
+
+Ember.js
+---
+Write less code that does more
+
+
+AngularJS
+---
+Dynamic HTML functionality
+
+
+
+
+
+
+
+
+
+Templating Libraries:
+Underscore.js
+---
+Dependency for backbone
+
+Handlebars.js
+---
+Used with Ember
+
+Jade & Ejs
+---
+Used with node

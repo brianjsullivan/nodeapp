@@ -1,0 +1,29 @@
+NODE JS is built on Google v8 JavaScript engine & leverages JavaScript on the server
+---
+Node is asynchronous & runs on a SINGLE THREAD
+  -> opposed to PHP/Ruby/ASP which are multi-thread
+  -> single-thread doesn't have to wait on a synchronous or long-running task
+  -> an event queue receives incomplete operations and executes them separately, while node remains open to new requests and operations
+
+"When a web request comes in it is passed off to an ASYNCHRONOUS CALLBACK HANDLER and frees up the main thread allowing the next process to happen"
+  -> this is unlike PHP & other server-side language, which operate synchronously
+  -> Synchronous code may block new requests
+
+---
+NPM is ran in the command line and manages dependencies
+
+Basic commands:
+  -> npm install packagename
+  -> npm update packagename
+  -> npm ls (show what's on your system)
+  -> npm ls installed (view installed packages)
+  -> npm ls installed packagename (find if a specific package or author is installed)
+  -> npm link (symlink a package folder; related to building modules)
+  -> npm search
+
+Updating Node.js via NPM:
+  -> npm cache clean -f
+  -> npm install -g n (-g means global)
+  -> n stable
+  "n" represents a node helper and updates node to the most recent stable version
+
